@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #202124;
+  background: #fff;
+  --muted: #62666d;
+  --line: #e8eaed;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; min-width: 320px; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, input:focus-visible + span { outline: 2px solid #2563eb; outline-offset: 4px; }
+button:disabled { opacity: .5; cursor: default; }
+.shell { max-width: 760px; margin: auto; padding: 0 24px; }
+.console { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 64px; background: #fff; border-bottom: 1px solid var(--line); }
+.status { display: inline-flex; align-items: center; gap: 8px; font-size: .85rem; color: var(--muted); }
+.status-led { width: 7px; height: 7px; border-radius: 50%; background: #9aa0a6; flex-shrink: 0; }
+body[data-connected="true"] .status-led { background: #27845a; }
+body[data-connected="true"][data-status="error"] .status-led { background: #c0392b; }
+body[data-connected="true"][data-status="stopped"] .status-led { background: #9aa0a6; }
+h2 { margin: 0; font-size: 1.2rem; }
+.quiet-button, .danger-button { min-height: 44px; padding: 10px 12px; border: 0; border-radius: 8px; background: transparent; color: var(--muted); }
+.quiet-button:hover:not(:disabled) { background: #f1f3f4; color: #202124; }
+.conversation { min-height: calc(100dvh - 64px); padding: 28px 0 220px; }
+.empty-state { padding: 20vh 0 0; text-align: center; color: var(--muted); line-height: 1.6; }
+.empty-state p { color: #202124; font-size: 1.5rem; margin: 0 0 8px; font-weight: 600; letter-spacing: -.04em; }
+.empty-state span { font-size: .9rem; }
+.turn-list { display: flex; flex-direction: column; gap: 24px; list-style: none; padding: 0; margin: 0; }
+.turn { max-width: 100%; align-self: flex-start; min-width: 64px; }
+.turn--user { max-width: 85%; align-self: flex-end; }
+.utterance { padding: 0; }
+.utterance--user { padding: 12px 16px; background: #f1f3f4; border-radius: 18px; }
+.utterance__speaker { display: block; margin-bottom: 6px; color: var(--muted); font-size: .75rem; font-weight: 500; }
+.utterance--user .utterance__speaker { display: none; }
+.utterance p { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.65; }
+.turn__error { color: #b3261e; font-size: .85rem; line-height: 1.5; }
+.controls { position: fixed; z-index: 3; bottom: 0; left: 50%; transform: translateX(-50%); width: min(100%, 760px); display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 14px 16px max(16px, env(safe-area-inset-bottom)); background: #fff; border-top: 1px solid var(--line); }
+.mode-control { display: flex; min-width: 0; margin: 0; padding: 3px; border: 0; border-radius: 10px; background: #f1f3f4; }
+.mode-control label { position: relative; cursor: pointer; }
+.mode-control input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.mode-control span { display: block; padding: 10px 14px; border-radius: 7px; font-size: .85rem; color: var(--muted); }
+.mode-control input:checked + span { background: #fff; color: #202124; box-shadow: 0 1px 3px rgb(0 0 0 / 9%); }
+.mode-control:disabled label { cursor: default; }
+.mode-control:disabled span { opacity: .6; }
+.talk-button { min-width: 210px; min-height: 54px; display: inline-flex; align-items: center; justify-content: center; padding: 12px 24px; gap: 10px; border: 0; border-radius: 28px; color: #fff; background: #202124; font-size: .95rem; font-weight: 500; touch-action: none; user-select: none; -webkit-user-select: none; }
+.talk-button__icon { width: 22px; height: 22px; fill: currentColor; flex-shrink: 0; }
+.talk-button:hover:not(:disabled) { background: #3c4043; }
+body[data-mic-active="true"] .talk-button { background: #b3261e; }
+body[data-mic-active="true"] .talk-button__icon { display: none; }
+body[data-mic-active="true"] .talk-button::before { content: ""; width: 14px; height: 14px; border-radius: 3px; background: currentColor; }
+#session-detail { margin: 0; text-align: center; color: var(--muted); font-size: .8rem; line-height: 1.4; max-width: 100%; overflow-wrap: anywhere; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.reset-dialog { width: min(92vw, 400px); padding: 24px; border: 1px solid var(--line); border-radius: 16px; color: #202124; background: #fff; }
+.reset-dialog::backdrop { background: rgb(0 0 0 / 30%); }
+.reset-dialog p { line-height: 1.5; color: var(--muted); }
+.dialog-actions { display: flex; justify-content: flex-end; gap: 10px; }
+.danger-button { color: white; background: #b3261e; }
+.toast { position: fixed; z-index: 5; bottom: 205px; left: 50%; transform: translateX(-50%); width: max-content; max-width: 90vw; padding: 12px 16px; border-radius: 10px; color: white; background: #202124; opacity: 0; pointer-events: none; font-size: .9rem; }
+.toast--visible { opacity: 1; }
+@media (max-width: 540px) { .shell { padding: 0 16px; } .turn--user { max-width: 90%; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }

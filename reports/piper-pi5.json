@@ -1,0 +1,34 @@
+[
+  {
+    "voice": "pt_BR-faber-medium",
+    "phase": "cold",
+    "load_seconds": 3.2224174540000092,
+    "first_chunk_seconds": 0.37693525800000316,
+    "total_seconds": 0.6593708199999924,
+    "audio_seconds": 3.215963718820862
+  },
+  {
+    "voice": "pt_BR-faber-medium",
+    "phase": "warm",
+    "load_seconds": 3.2224174540000092,
+    "first_chunk_seconds": 0.24728193599997894,
+    "total_seconds": 0.5292320319999817,
+    "audio_seconds": 3.274013605442177
+  },
+  {
+    "voice": "pt_BR-edresson-low",
+    "phase": "cold",
+    "load_seconds": 2.671696957999984,
+    "first_chunk_seconds": 0.31476545800001077,
+    "total_seconds": 0.6288072170000021,
+    "audio_seconds": 5.424
+  },
+  {
+    "voice": "pt_BR-edresson-low",
+    "phase": "warm",
+    "load_seconds": 2.671696957999984,
+    "first_chunk_seconds": 0.32838272300000426,
+    "total_seconds": 0.6499491410000076,
+    "audio_seconds": 5.744
+  }
+]

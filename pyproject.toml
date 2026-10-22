@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raspberry-phone"
+version = "0.1.0"
+description = "Half-duplex AI telephone for Raspberry Pi"
+requires-python = ">=3.11"
+dependencies = [
+  "openai>=1.50,<3",
+  "piper-tts==1.4.2",
+  "python-dotenv>=1.0,<2",
+]
+
+[project.optional-dependencies]
+streaming = ["websockets>=14,<18"]
+agent = ["deepgram-sdk==7.14.0"]
+dev = [
+  "mypy>=1.15,<2",
+  "pytest>=8,<10",
+  "pytest-cov>=5,<8",
+]
+
+[project.scripts]
+raspberry-phone = "raspberry_phone.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+raspberry_phone = ["web/*.html", "web/*.css", "web/*.js", "web/*.mjs"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[[tool.mypy.overrides]]
+module = ["dotenv", "openai", "piper", "piper.*", "onnxruntime"]
+ignore_missing_imports = true

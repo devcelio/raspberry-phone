@@ -1,0 +1,1652 @@
+[
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Oi! Me explica em poucas palavras por que chove.",
+    "usage": {
+      "completion_tokens": 52,
+      "prompt_tokens": 55,
+      "total_tokens": 107,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 7.89e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 7.89e-05,
+        "upstream_inference_prompt_cost": 1.65e-05,
+        "upstream_inference_completions_cost": 6.24e-05
+      }
+    },
+    "first_text_seconds": 5.026705022999977,
+    "first_sentence_seconds": 5.095393521999995,
+    "total_seconds": 5.191614776000051,
+    "answer": "A chuva acontece quando o vapor d'água que sobe para o céu esfria, vira gotinhas e forma nuvens pesadas. Quando essas gotinhas ficam grandes demais, elas caem."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Oi! Me explica em poucas palavras por que chove.",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 61,
+      "total_tokens": 105,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 0.00012595,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00012595,
+        "upstream_inference_prompt_cost": 6.039e-05,
+        "upstream_inference_completions_cost": 6.556e-05
+      }
+    },
+    "first_text_seconds": 0.39333046599995214,
+    "first_sentence_seconds": 0.401850708999973,
+    "total_seconds": 0.4317311659999632,
+    "answer": "A água evapora do solo e dos oceanos, sobe e se condensa em nuvens. Quando essas nuvens ficam pesadas demais, a água cai de volta ao solo em forma de chuva."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Oi! Me explica em poucas palavras por que chove.",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 61,
+      "total_tokens": 102,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 2.842e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 2.842e-05,
+        "upstream_inference_prompt_cost": 9.15e-06,
+        "upstream_inference_completions_cost": 1.927e-05
+      }
+    },
+    "first_text_seconds": 0.8438307599999462,
+    "first_sentence_seconds": 1.3416726729999482,
+    "total_seconds": 1.5287933179999982,
+    "answer": "A chuva ocorre quando o vapor d'água na atmosfera se resfria e condensa em gotas. Quando essas gotas ficam pesadas demais, caem para a superfície como precipitação."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Oi! Me explica em poucas palavras por que chove.",
+    "usage": {
+      "completion_tokens": 41,
+      "prompt_tokens": 47,
+      "total_tokens": 88,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 7.325e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 7.325e-05,
+        "upstream_inference_prompt_cost": 1.175e-05,
+        "upstream_inference_completions_cost": 6.15e-05
+      }
+    },
+    "first_text_seconds": 0.7775561150001522,
+    "first_sentence_seconds": 0.9193252420000135,
+    "total_seconds": 0.9376957240001502,
+    "answer": "A chuva ocorre quando o vapor de água na atmosfera se condensa em nuvens e cai devido ao peso das gotas. Isso acontece quando o ar esfria e não consegue mais sustentar a umidade."
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Oi! Me explica em poucas palavras por que chove.",
+    "usage": {
+      "completion_tokens": 67,
+      "prompt_tokens": 118,
+      "total_tokens": 185,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 19,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 5.79e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 5.79e-05,
+        "upstream_inference_prompt_cost": 1.77e-05,
+        "upstream_inference_completions_cost": 4.02e-05
+      }
+    },
+    "first_text_seconds": 0.3857331440001417,
+    "first_sentence_seconds": 0.4509373810001307,
+    "total_seconds": 0.48490449700011595,
+    "answer": "A chuva ocorre quando a água evaporada sobe, se condensa em nuvens e, ao se tornar pesada demais, cai como gotas. Isso acontece por diferenças de temperatura e pressão na atmosfera."
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Tenho arroz, ovo e tomate. O que posso fazer de jantar?",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 62,
+      "total_tokens": 117,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 8.46e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 8.46e-05,
+        "upstream_inference_prompt_cost": 1.86e-05,
+        "upstream_inference_completions_cost": 6.6e-05
+      }
+    },
+    "first_text_seconds": 0.5742429540000558,
+    "first_sentence_seconds": 0.9138660930000242,
+    "total_seconds": 0.9356183390000297,
+    "answer": "Você pode fazer um arroz de forno simples: refogue o tomate picado, misture com o arroz cozido e os ovos mexidos, cubra com queijo se tiver e leve ao forno para gratinar."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Tenho arroz, ovo e tomate. O que posso fazer de jantar?",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 64,
+      "total_tokens": 98,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 0.00011402,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00011402,
+        "upstream_inference_prompt_cost": 6.336e-05,
+        "upstream_inference_completions_cost": 5.066e-05
+      }
+    },
+    "first_text_seconds": 0.39979040799994436,
+    "first_sentence_seconds": 0.4219291119998161,
+    "total_seconds": 0.4358001759999297,
+    "answer": "Você pode preparar uma omelete recheada com tomate ou um arroz de forno com ovos e tomates. São opções rápidas e saborosas para o jantar."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Tenho arroz, ovo e tomate. O que posso fazer de jantar?",
+    "usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 64,
+      "total_tokens": 92,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 2.276e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 2.276e-05,
+        "upstream_inference_prompt_cost": 9.6e-06,
+        "upstream_inference_completions_cost": 1.316e-05
+      }
+    },
+    "first_text_seconds": 1.0739751380001508,
+    "first_sentence_seconds": 1.3080428230000507,
+    "total_seconds": 1.4182411860001594,
+    "answer": "Você pode fazer um arroz frito simples com ovo e tomate picado. É uma refeição rápida, nutritiva e muito saborosa."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Tenho arroz, ovo e tomate. O que posso fazer de jantar?",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 49,
+      "total_tokens": 89,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 7.225e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 7.225e-05,
+        "upstream_inference_prompt_cost": 1.225e-05,
+        "upstream_inference_completions_cost": 6e-05
+      }
+    },
+    "first_text_seconds": 0.7343131999998604,
+    "first_sentence_seconds": 0.7947752089999085,
+    "total_seconds": 0.9159010490000128,
+    "answer": "Você pode preparar um arroz frito com ovos mexidos e tomates picados. Outra opção é servir o arroz com ovos fritos por cima e uma salada de tomate temperada."
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Tenho arroz, ovo e tomate. O que posso fazer de jantar?",
+    "usage": {
+      "completion_tokens": 59,
+      "prompt_tokens": 120,
+      "total_tokens": 179,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 19,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 5.34e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 5.34e-05,
+        "upstream_inference_prompt_cost": 1.8e-05,
+        "upstream_inference_completions_cost": 3.54e-05
+      }
+    },
+    "first_text_seconds": 0.4111908060001497,
+    "first_sentence_seconds": 0.4571559190001153,
+    "total_seconds": 0.4942365700001119,
+    "answer": "Faça um arroz frito com ovos mexidos e tomate picado, temperando a gosto. É rápido, saboroso e fica pronto em poucos minutos."
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Você disse para eu reiniciar o roteador. Isso apaga minha senha do Wi-Fi?",
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 65,
+      "total_tokens": 113,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 7.71e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 7.71e-05,
+        "upstream_inference_prompt_cost": 1.95e-05,
+        "upstream_inference_completions_cost": 5.76e-05
+      }
+    },
+    "first_text_seconds": 0.6050098289999823,
+    "first_sentence_seconds": 0.642106209999838,
+    "total_seconds": 0.7378691349999826,
+    "answer": "Não, reiniciar o roteador não apaga sua senha do Wi-Fi. A senha só seria apagada se você fizesse um reset de fábrica, que é diferente de apenas reiniciar."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Você disse para eu reiniciar o roteador. Isso apaga minha senha do Wi-Fi?",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 68,
+      "total_tokens": 106,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 0.0001086,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.0001086,
+        "upstream_inference_prompt_cost": 1.36e-05,
+        "upstream_inference_completions_cost": 9.5e-05
+      }
+    },
+    "first_text_seconds": 0.3332988359998126,
+    "first_sentence_seconds": 0.3836085749999256,
+    "total_seconds": 0.5291030619998764,
+    "answer": "Não, reiniciar o roteador não apaga a senha do Wi-Fi. A senha permanece salva nos ajustes do dispositivo, pois um simples reinício não faz o reset de fábrica."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Você disse para eu reiniciar o roteador. Isso apaga minha senha do Wi-Fi?",
+    "usage": {
+      "completion_tokens": 35,
+      "prompt_tokens": 68,
+      "total_tokens": 103,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 2.665e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 2.665e-05,
+        "upstream_inference_prompt_cost": 1.02e-05,
+        "upstream_inference_completions_cost": 1.645e-05
+      }
+    },
+    "first_text_seconds": 1.1613914859999568,
+    "first_sentence_seconds": 1.5077518079999663,
+    "total_seconds": 2.0782901530001254,
+    "answer": "Não, reiniciar o roteador não apaga sua senha do Wi-Fi. As configurações permanecem salvas mesmo após o desligamento e religamento do aparelho."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Você disse para eu reiniciar o roteador. Isso apaga minha senha do Wi-Fi?",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 53,
+      "total_tokens": 85,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 6.125e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 6.125e-05,
+        "upstream_inference_prompt_cost": 1.325e-05,
+        "upstream_inference_completions_cost": 4.8e-05
+      }
+    },
+    "first_text_seconds": 0.7661805990001085,
+    "first_sentence_seconds": 0.7950787160000345,
+    "total_seconds": 0.9470941300000959,
+    "answer": "Não, reiniciar o roteador apenas reinicia o sistema e não apaga a sua senha do Wi-Fi. Suas configurações permanecerão salvas normalmente."
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Você disse para eu reiniciar o roteador. Isso apaga minha senha do Wi-Fi?",
+    "usage": {
+      "completion_tokens": 67,
+      "prompt_tokens": 125,
+      "total_tokens": 192,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 19,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 5.895e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 5.895e-05,
+        "upstream_inference_prompt_cost": 1.875e-05,
+        "upstream_inference_completions_cost": 4.02e-05
+      }
+    },
+    "first_text_seconds": 0.53286629299987,
+    "first_sentence_seconds": 0.5892973739998979,
+    "total_seconds": 0.6282997929999965,
+    "answer": "Não, reiniciar o roteador geralmente mantém a senha configurada, a menos que você faça um reset de fábrica. Se for apenas reiniciar, a rede volta com as mesmas credenciais."
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Quanto é quinze por oito?",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 52,
+      "total_tokens": 65,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 3.12e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 3.12e-05,
+        "upstream_inference_prompt_cost": 1.56e-05,
+        "upstream_inference_completions_cost": 1.56e-05
+      }
+    },
+    "first_text_seconds": 0.38872732100003304,
+    "first_sentence_seconds": 0.4108212849998836,
+    "total_seconds": 0.41987517300003674,
+    "answer": "Quinze por oito é igual a 120."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Quanto é quinze por oito?",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 56,
+      "total_tokens": 69,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 7.481e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 7.481e-05,
+        "upstream_inference_prompt_cost": 5.544e-05,
+        "upstream_inference_completions_cost": 1.937e-05
+      }
+    },
+    "first_text_seconds": 0.41922059200010153,
+    "first_sentence_seconds": 0.4310594220000894,
+    "total_seconds": 0.4396094040000662,
+    "answer": "Quinze vezes oito é igual a cento e vinte."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Quanto é quinze por oito?",
+    "usage": {
+      "completion_tokens": 10,
+      "prompt_tokens": 56,
+      "total_tokens": 66,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 1.31e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 1.31e-05,
+        "upstream_inference_prompt_cost": 8.4e-06,
+        "upstream_inference_completions_cost": 4.7e-06
+      }
+    },
+    "first_text_seconds": 1.8606078319999142,
+    "first_sentence_seconds": 2.1158376710000084,
+    "total_seconds": 2.187986533999947,
+    "answer": "Quinze por oito é cento e vinte."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Quanto é quinze por oito?",
+    "usage": {
+      "completion_tokens": 22,
+      "prompt_tokens": 40,
+      "total_tokens": 62,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 4.3e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 4.3e-05,
+        "upstream_inference_prompt_cost": 1e-05,
+        "upstream_inference_completions_cost": 3.3e-05
+      }
+    },
+    "first_text_seconds": 0.7996388789999855,
+    "first_sentence_seconds": 0.8223688850000599,
+    "total_seconds": 0.8491036210000402,
+    "answer": "Quinze vezes oito é igual a cento e vinte. O resultado da conta é 120."
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Quanto é quinze por oito?",
+    "usage": {
+      "completion_tokens": 47,
+      "prompt_tokens": 112,
+      "total_tokens": 159,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 25,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 7.445e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 7.445e-05,
+        "upstream_inference_prompt_cost": 3.92e-05,
+        "upstream_inference_completions_cost": 3.525e-05
+      }
+    },
+    "first_text_seconds": 1.70084146399995,
+    "first_sentence_seconds": 1.7139578960000108,
+    "total_seconds": 1.7252704770000946,
+    "answer": "Quarenta e cinco vezes oito é cento e vinte."
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Como faço café sem ficar amargo?",
+    "usage": {
+      "completion_tokens": 60,
+      "prompt_tokens": 53,
+      "total_tokens": 113,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 8.79e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 8.79e-05,
+        "upstream_inference_prompt_cost": 1.59e-05,
+        "upstream_inference_completions_cost": 7.2e-05
+      }
+    },
+    "first_text_seconds": 0.3573974470000394,
+    "first_sentence_seconds": 0.6489872160000232,
+    "total_seconds": 0.7021573679999165,
+    "answer": "Use água entre 90 e 96 graus e não deixe o pó em contato por tempo demais, ajustando a proporção para cerca de 10 gramas de café por 100 ml de água. Moagem grossa também ajuda a evitar o amargor."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Como faço café sem ficar amargo?",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 57,
+      "total_tokens": 112,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 0.00013838,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00013838,
+        "upstream_inference_prompt_cost": 5.643e-05,
+        "upstream_inference_completions_cost": 8.195e-05
+      }
+    },
+    "first_text_seconds": 0.6629030239998883,
+    "first_sentence_seconds": 0.6840607409999393,
+    "total_seconds": 0.7033849199999622,
+    "answer": "Use água que não esteja fervendo, por volta de 90°C, para evitar a extração excessiva de compostos amargos. Além disso, não deixe o pó em contato com a água por tempo demais, respeitando o tempo ideal de preparo."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Como faço café sem ficar amargo?",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 57,
+      "total_tokens": 75,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 1.701e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 1.701e-05,
+        "upstream_inference_prompt_cost": 8.55e-06,
+        "upstream_inference_completions_cost": 8.46e-06
+      }
+    },
+    "first_text_seconds": 5.481634677000102,
+    "first_sentence_seconds": 5.727556265000203,
+    "total_seconds": 5.762962340000058,
+    "answer": "Use água entre 90 e 96 graus, evitando a fervura total."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Como faço café sem ficar amargo?",
+    "usage": {
+      "completion_tokens": 44,
+      "prompt_tokens": 42,
+      "total_tokens": 86,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 7.65e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 7.65e-05,
+        "upstream_inference_prompt_cost": 1.05e-05,
+        "upstream_inference_completions_cost": 6.6e-05
+      }
+    },
+    "first_text_seconds": 0.8631246180000289,
+    "first_sentence_seconds": 1.0219320080000216,
+    "total_seconds": 1.0407383239999035,
+    "answer": "Use água filtrada logo antes de ferver e não deixe o pó em contato com a água por muito tempo. Evite moagens muito finas e prefira uma torra média para um sabor mais equilibrado."
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Como faço café sem ficar amargo?",
+    "usage": {
+      "completion_tokens": 84,
+      "prompt_tokens": 114,
+      "total_tokens": 198,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 19,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 6.75e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 6.75e-05,
+        "upstream_inference_prompt_cost": 1.71e-05,
+        "upstream_inference_completions_cost": 5.04e-05
+      }
+    },
+    "first_text_seconds": 0.46186402100011037,
+    "first_sentence_seconds": 0.7793609360001028,
+    "total_seconds": 0.9142378540000209,
+    "answer": "Use água quase quente (cerca de 90 °C) e não deixe o pó em contato por mais de 3‑4 minutos; ajuste a quantidade de café para evitar excesso. Também pode acrescentar uma pitada de sal ou açúcar para reduzir a amargura."
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Me dê uma ideia de passeio barato num dia de chuva.",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 59,
+      "total_tokens": 86,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 5.01e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 5.01e-05,
+        "upstream_inference_prompt_cost": 1.77e-05,
+        "upstream_inference_completions_cost": 3.24e-05
+      }
+    },
+    "first_text_seconds": 0.31132052199995996,
+    "first_sentence_seconds": 0.8375912389999485,
+    "total_seconds": 0.8655639959999917,
+    "answer": "Visite um museu gratuito ou uma biblioteca pública, onde você pode passar horas explorando sem gastar quase nada."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Me dê uma ideia de passeio barato num dia de chuva.",
+    "usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 61,
+      "total_tokens": 99,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 0.00011701,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00011701,
+        "upstream_inference_prompt_cost": 6.039e-05,
+        "upstream_inference_completions_cost": 5.662e-05
+      }
+    },
+    "first_text_seconds": 0.3964292079999723,
+    "first_sentence_seconds": 0.4393039659998976,
+    "total_seconds": 0.49663832999999613,
+    "answer": "Visite uma biblioteca pública ou uma livraria para ler com calma. Você também pode explorar um museu de história local, que costuma ter ingressos gratuitos ou muito baratos."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Me dê uma ideia de passeio barato num dia de chuva.",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 61,
+      "total_tokens": 86,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 2.09e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 2.09e-05,
+        "upstream_inference_prompt_cost": 9.15e-06,
+        "upstream_inference_completions_cost": 1.175e-05
+      }
+    },
+    "first_text_seconds": 0.8523323090000758,
+    "first_sentence_seconds": 1.4579704770001172,
+    "total_seconds": 1.468350196000074,
+    "answer": "Visite um museu público ou biblioteca municipal, pois a entrada costuma ser gratuita e o ambiente é acolhedor."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Me dê uma ideia de passeio barato num dia de chuva.",
+    "usage": {
+      "completion_tokens": 46,
+      "prompt_tokens": 46,
+      "total_tokens": 92,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 8.05e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 8.05e-05,
+        "upstream_inference_prompt_cost": 1.15e-05,
+        "upstream_inference_completions_cost": 6.9e-05
+      }
+    },
+    "first_text_seconds": 1.2586999959999048,
+    "first_sentence_seconds": 1.4184151469999051,
+    "total_seconds": 1.4558242400000836,
+    "answer": "Visite uma biblioteca pública ou um museu com entrada gratuita para aproveitar o dia em um ambiente coberto. Outra opção é explorar um shopping center, onde você pode caminhar e observar as vitrines sem gastar nada."
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Me dê uma ideia de passeio barato num dia de chuva.",
+    "usage": {
+      "completion_tokens": 51,
+      "prompt_tokens": 118,
+      "total_tokens": 169,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 17,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 4.83e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 4.83e-05,
+        "upstream_inference_prompt_cost": 1.77e-05,
+        "upstream_inference_completions_cost": 3.06e-05
+      }
+    },
+    "first_text_seconds": 0.7136287920000086,
+    "first_sentence_seconds": 0.7885330189999422,
+    "total_seconds": 0.9166895880000538,
+    "answer": "Visite um museu gratuito ou com entrada simbólica e depois tome um café em uma cafeteria aconchegante próxima."
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "O que significa ter uma conexão de internet instável?",
+    "usage": {
+      "completion_tokens": 62,
+      "prompt_tokens": 54,
+      "total_tokens": 116,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 9.06e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 9.06e-05,
+        "upstream_inference_prompt_cost": 1.62e-05,
+        "upstream_inference_completions_cost": 7.44e-05
+      }
+    },
+    "first_text_seconds": 0.6359851980000713,
+    "first_sentence_seconds": 1.4826520650001385,
+    "total_seconds": 3.9921431620000476,
+    "answer": "Ter uma conexão instável significa que a internet oscila, ficando lenta ou caindo momentaneamente com frequência, em vez de manter uma velocidade constante. Isso causa travamentos em vídeos, chamadas e downloads, mesmo que o sinal pareça estar funcionando."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "O que significa ter uma conexão de internet instável?",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 60,
+      "total_tokens": 110,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 0.000137,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.000137,
+        "upstream_inference_prompt_cost": 1.2e-05,
+        "upstream_inference_completions_cost": 0.000125
+      }
+    },
+    "first_text_seconds": 0.7053423649999786,
+    "first_sentence_seconds": 0.8251409839999724,
+    "total_seconds": 0.9330222830001276,
+    "answer": "Ter uma conexão instável significa que a internet apresenta quedas frequentes, lentidão ou interrupções constantes no sinal. Isso impede o uso contínuo e confiável da rede para navegar, assistir vídeos ou realizar chamadas de vídeo."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "O que significa ter uma conexão de internet instável?",
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 60,
+      "total_tokens": 93,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 2.451e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 2.451e-05,
+        "upstream_inference_prompt_cost": 9e-06,
+        "upstream_inference_completions_cost": 1.551e-05
+      }
+    },
+    "first_text_seconds": 1.0933700450000288,
+    "first_sentence_seconds": 1.4803275689998827,
+    "total_seconds": 1.5678566169999613,
+    "answer": "Uma conexão instável apresenta quedas frequentes e variações bruscas na velocidade. Isso causa lentidão, travamentos e interrupções durante o uso da internet."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "O que significa ter uma conexão de internet instável?",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 45,
+      "total_tokens": 90,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 7.875e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 7.875e-05,
+        "upstream_inference_prompt_cost": 1.125e-05,
+        "upstream_inference_completions_cost": 6.75e-05
+      }
+    },
+    "first_text_seconds": 0.8788592210000843,
+    "first_sentence_seconds": 1.0078980840000895,
+    "total_seconds": 1.0386092220001046,
+    "answer": "Ter uma conexão instável significa que a velocidade da sua internet oscila constantemente ou sofre quedas frequentes. Isso causa interrupções no carregamento de páginas, vídeos travando e falhas em chamadas de vídeo."
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "prompt": "O que significa ter uma conexão de internet instável?",
+    "usage": {
+      "completion_tokens": 62,
+      "prompt_tokens": 117,
+      "total_tokens": 179,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 19,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 5.475e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 5.475e-05,
+        "upstream_inference_prompt_cost": 1.755e-05,
+        "upstream_inference_completions_cost": 3.72e-05
+      }
+    },
+    "first_text_seconds": 0.8301469759999236,
+    "first_sentence_seconds": 1.0335997570000472,
+    "total_seconds": 1.2489350670000476,
+    "answer": "Significa que a velocidade e a disponibilidade da rede variam, causando quedas ou lentidão frequente. Isso impede que serviços online funcionem de forma contínua."
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Como organizar três tarefas urgentes?",
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 51,
+      "total_tokens": 106,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 8.13e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 8.13e-05,
+        "upstream_inference_prompt_cost": 1.53e-05,
+        "upstream_inference_completions_cost": 6.6e-05
+      }
+    },
+    "first_text_seconds": 0.9463637859998926,
+    "first_sentence_seconds": 1.1092074279999906,
+    "total_seconds": 1.2541165219997765,
+    "answer": "Liste as três tarefas e defina qual tem o prazo mais curto ou maior impacto, começando por ela. Depois, reserve blocos de tempo seguidos para cada uma, sem interrupções, e reavalie ao final do dia."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Como organizar três tarefas urgentes?",
+    "usage": {
+      "completion_tokens": 37,
+      "prompt_tokens": 56,
+      "total_tokens": 93,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 0.00011057,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00011057,
+        "upstream_inference_prompt_cost": 5.544e-05,
+        "upstream_inference_completions_cost": 5.513e-05
+      }
+    },
+    "first_text_seconds": 1.3613526229999025,
+    "first_sentence_seconds": 1.3757591569999477,
+    "total_seconds": 1.4059373800000685,
+    "answer": "Priorize a tarefa com maior impacto ou prazo mais apertado e execute-a primeiro. Em seguida, alterne entre as outras duas conforme a urgência e a energia disponível."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Como organizar três tarefas urgentes?",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 56,
+      "total_tokens": 81,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 2.015e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 2.015e-05,
+        "upstream_inference_prompt_cost": 8.4e-06,
+        "upstream_inference_completions_cost": 1.175e-05
+      }
+    },
+    "first_text_seconds": 1.4360069140000178,
+    "first_sentence_seconds": 1.7528109899999436,
+    "total_seconds": 1.9366987089999839,
+    "answer": "Priorize a tarefa com maior impacto ou prazo mais curto. Execute uma de cada vez para manter o foco e evitar erros."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Como organizar três tarefas urgentes?",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 41,
+      "total_tokens": 73,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 5.825e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 5.825e-05,
+        "upstream_inference_prompt_cost": 1.025e-05,
+        "upstream_inference_completions_cost": 4.8e-05
+      }
+    },
+    "first_text_seconds": 0.8130084859999442,
+    "first_sentence_seconds": 0.853408877999982,
+    "total_seconds": 0.8998539969998092,
+    "answer": "Priorize a tarefa mais crítica e execute-a primeiro com foco total. Em seguida, resolva as duas restantes seguindo a ordem de importância e prazo."
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Como organizar três tarefas urgentes?",
+    "usage": {
+      "completion_tokens": 80,
+      "prompt_tokens": 113,
+      "total_tokens": 193,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 19,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 6.495e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 6.495e-05,
+        "upstream_inference_prompt_cost": 1.695e-05,
+        "upstream_inference_completions_cost": 4.8e-05
+      }
+    },
+    "first_text_seconds": 0.5422034890000305,
+    "first_sentence_seconds": 0.6838637380001273,
+    "total_seconds": 0.8911159960000532,
+    "answer": "Priorize as: a) a tarefa mais crítica, b) a segunda mais urgente e c) a última, dedicando blocos de tempo separados para cada uma. Execute-as nessa ordem, focando em concluir cada tarefa antes de passar para a próxima."
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Me conte uma curiosidade sobre a Lua.",
+    "usage": {
+      "completion_tokens": 36,
+      "prompt_tokens": 51,
+      "total_tokens": 87,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 5.85e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 5.85e-05,
+        "upstream_inference_prompt_cost": 1.53e-05,
+        "upstream_inference_completions_cost": 4.32e-05
+      }
+    },
+    "first_text_seconds": 0.7494323130001703,
+    "first_sentence_seconds": 0.8883547550001367,
+    "total_seconds": 0.9135754349999843,
+    "answer": "A Lua se afasta da Terra cerca de 3,8 centímetros por ano, e isso foi confirmado por refletores deixados pelas missões Apollo."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Me conte uma curiosidade sobre a Lua.",
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 58,
+      "total_tokens": 103,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 0.0001241,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.0001241,
+        "upstream_inference_prompt_cost": 1.16e-05,
+        "upstream_inference_completions_cost": 0.0001125
+      }
+    },
+    "first_text_seconds": 0.4076477609999074,
+    "first_sentence_seconds": 0.5216572829999677,
+    "total_seconds": 0.5850761719998445,
+    "answer": "A Lua está se afastando da Terra a uma velocidade de aproximadamente 3,8 centímetros por ano. Esse movimento gradual faz com que os eclipses solares totais sejam cada vez mais raros no futuro."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Me conte uma curiosidade sobre a Lua.",
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 58,
+      "total_tokens": 90,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 2.374e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 2.374e-05,
+        "upstream_inference_prompt_cost": 8.7e-06,
+        "upstream_inference_completions_cost": 1.504e-05
+      }
+    },
+    "first_text_seconds": 0.905490091000047,
+    "first_sentence_seconds": 1.347284456000125,
+    "total_seconds": 1.7233325930001229,
+    "answer": "A Lua está se afastando da Terra cerca de 3,8 centímetros por ano. Isso ocorre devido à interação gravitacional entre os dois corpos."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Me conte uma curiosidade sobre a Lua.",
+    "usage": {
+      "completion_tokens": 39,
+      "prompt_tokens": 43,
+      "total_tokens": 82,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 6.925e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 6.925e-05,
+        "upstream_inference_prompt_cost": 1.075e-05,
+        "upstream_inference_completions_cost": 5.85e-05
+      }
+    },
+    "first_text_seconds": 1.0797409639999387,
+    "first_sentence_seconds": 1.1964292829998158,
+    "total_seconds": 1.2383729009998206,
+    "answer": "A Lua está se afastando da Terra a uma taxa de cerca de 3,8 centímetros por ano. Além disso, ela não possui luz própria, apenas reflete a luz do Sol."
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Me conte uma curiosidade sobre a Lua.",
+    "usage": {
+      "completion_tokens": 73,
+      "prompt_tokens": 115,
+      "total_tokens": 188,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 19,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 6.105e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 6.105e-05,
+        "upstream_inference_prompt_cost": 1.725e-05,
+        "upstream_inference_completions_cost": 4.38e-05
+      }
+    },
+    "first_text_seconds": 0.44291894899993167,
+    "first_sentence_seconds": 0.5928008519999821,
+    "total_seconds": 0.6573802600000818,
+    "answer": "A Lua se afasta da Terra cerca de 3,8 cm por ano devido à força de maré. Esse movimento é tão lento que levará bilhões de anos para mudar significativamente a distância entre os dois corpos."
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Pode repetir sua dica de jantar em uma frase?",
+    "usage": {
+      "completion_tokens": 40,
+      "prompt_tokens": 56,
+      "total_tokens": 96,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 6.48e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 6.48e-05,
+        "upstream_inference_prompt_cost": 1.68e-05,
+        "upstream_inference_completions_cost": 4.8e-05
+      }
+    },
+    "first_text_seconds": 0.7230165450000641,
+    "first_sentence_seconds": 0.9096496289998868,
+    "total_seconds": 0.9207349729999805,
+    "answer": "Jante algo leve como uma sopa com torradas ou um sanduíche de frango desfiado com salada, para não pesar no estômago antes de dormir."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Pode repetir sua dica de jantar em uma frase?",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 60,
+      "total_tokens": 80,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 6.2e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 6.2e-05,
+        "upstream_inference_prompt_cost": 1.2e-05,
+        "upstream_inference_completions_cost": 5e-05
+      }
+    },
+    "first_text_seconds": 0.5472664109997822,
+    "first_sentence_seconds": 0.6523347539996394,
+    "total_seconds": 0.6623579119996066,
+    "answer": "Como não houve conversas anteriores nesta sessão, não tenho uma dica de jantar específica para repetir."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Pode repetir sua dica de jantar em uma frase?",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 60,
+      "total_tokens": 83,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 1.981e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 1.981e-05,
+        "upstream_inference_prompt_cost": 9e-06,
+        "upstream_inference_completions_cost": 1.081e-05
+      }
+    },
+    "first_text_seconds": 2.045101347000127,
+    "first_sentence_seconds": 2.2545875670002715,
+    "total_seconds": 2.7016928709999775,
+    "answer": "Não tenho uma dica de jantar específica para repetir. Posso sugerir um prato simples e delicioso se você quiser."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Pode repetir sua dica de jantar em uma frase?",
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 45,
+      "total_tokens": 79,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 6.225e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 6.225e-05,
+        "upstream_inference_prompt_cost": 1.125e-05,
+        "upstream_inference_completions_cost": 5.1e-05
+      }
+    },
+    "first_text_seconds": 0.9848859089997859,
+    "first_sentence_seconds": 1.099137151999912,
+    "total_seconds": 1.1422306129998105,
+    "answer": "Prepare um omelete recheado com legumes frescos e queijo para um jantar leve e rápido. Essa opção é nutritiva, prática e fica pronta em poucos minutos."
+  },
+  {
+    "model": "openai/gpt-oss-120b",
+    "prompt": "Pode repetir sua dica de jantar em uma frase?",
+    "usage": {
+      "completion_tokens": 58,
+      "prompt_tokens": 116,
+      "total_tokens": 174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 28,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": 0,
+        "cached_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 5.22e-05,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 5.22e-05,
+        "upstream_inference_prompt_cost": 1.74e-05,
+        "upstream_inference_completions_cost": 3.48e-05
+      }
+    },
+    "first_text_seconds": 0.49871442899984686,
+    "first_sentence_seconds": 0.555188385999827,
+    "total_seconds": 0.6174346749999131,
+    "answer": "Experimente um filé de salmão grelhado com legumes assados e quinoa temperada."
+  }
+]

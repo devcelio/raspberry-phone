@@ -1,0 +1,98 @@
+[
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Oi! Me explica em poucas palavras por que chove.",
+    "first_text_seconds": 4.28831842600016,
+    "first_sentence_seconds": 4.357504336000147,
+    "total_seconds": 4.37337542399996,
+    "answer": "Chove quando o vapor d'água na atmosfera esfria, vira gotículas que se juntam até ficarem pesadas demais e caírem."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Oi! Me explica em poucas palavras por que chove.",
+    "first_text_seconds": 0.3797681650000868,
+    "first_sentence_seconds": 0.3995443169999362,
+    "total_seconds": 0.41642503100001704,
+    "answer": "A água evapora do solo e dos oceanos, formando nuvens no céu. Quando essas nuvens ficam pesadas demais, a água cai de volta na forma de chuva."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Oi! Me explica em poucas palavras por que chove.",
+    "first_text_seconds": 1.5812776120001217,
+    "first_sentence_seconds": 2.1886832960001357,
+    "total_seconds": 2.3999058029999105,
+    "answer": "A água evapora dos rios e mares, sobe para a atmosfera e forma nuvens. Quando essas gotículas ficam pesadas demais, caem como chuva."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Oi! Me explica em poucas palavras por que chove.",
+    "first_text_seconds": 0.8894144829998822,
+    "first_sentence_seconds": 1.036662170999989,
+    "total_seconds": 1.0601776119999613,
+    "answer": "A chuva ocorre quando o vapor de água na atmosfera se condensa em nuvens e cai devido ao peso das gotas. Isso acontece quando o ar esfria e não consegue mais sustentar a umidade."
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Tenho arroz, ovo e tomate. O que posso fazer de jantar?",
+    "first_text_seconds": 0.41757799600009093,
+    "first_sentence_seconds": 0.4768786510001064,
+    "total_seconds": 0.49321728900008566,
+    "answer": "Você pode fazer um arroz de forno com ovos mexidos e tomate picado por cima, ou uma omelete de tomate servida com arroz branco."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Tenho arroz, ovo e tomate. O que posso fazer de jantar?",
+    "first_text_seconds": 0.3369767789999969,
+    "first_sentence_seconds": 0.36609778900015044,
+    "total_seconds": 0.4130309140000463,
+    "answer": "Você pode preparar um arroz de forno com ovos mexidos e tomates frescos. Outra opção é fazer uma omelete recheada com tomate e servir acompanhada de arroz branco."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Tenho arroz, ovo e tomate. O que posso fazer de jantar?",
+    "first_text_seconds": 0.9030481590000363,
+    "first_sentence_seconds": 1.2250295329999972,
+    "total_seconds": 1.3671147310001288,
+    "answer": "Você pode fazer um arroz frito simples com ovo e tomate picado. É uma refeição rápida, nutritiva e deliciosa para o jantar."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Tenho arroz, ovo e tomate. O que posso fazer de jantar?",
+    "first_text_seconds": 0.7616194529998666,
+    "first_sentence_seconds": 0.8006918249998307,
+    "total_seconds": 0.873947034999901,
+    "answer": "Você pode preparar um arroz com ovo frito e uma salada de tomate temperada. Outra opção é refogar o tomate com o ovo e servir sobre o arroz como um mexido."
+  },
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "prompt": "Você disse para eu reiniciar o roteador. Isso apaga minha senha do Wi-Fi?",
+    "first_text_seconds": 0.7241995330000464,
+    "first_sentence_seconds": 0.7670407759999307,
+    "total_seconds": 0.9013522069999453,
+    "answer": "Não, reiniciar o roteador não apaga sua senha do Wi-Fi. A senha só seria apagada se você fizesse um reset de fábrica, que é diferente de apenas desligar e ligar o aparelho."
+  },
+  {
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "Você disse para eu reiniciar o roteador. Isso apaga minha senha do Wi-Fi?",
+    "first_text_seconds": 0.9936141900000166,
+    "first_sentence_seconds": 1.0000323560000197,
+    "total_seconds": 1.0447574869999698,
+    "answer": "Não, reiniciar o roteador não apaga a senha do Wi-Fi. Ela permanece salva e você continuará se conectando normalmente."
+  },
+  {
+    "model": "qwen/qwen3.8-flash",
+    "prompt": "Você disse para eu reiniciar o roteador. Isso apaga minha senha do Wi-Fi?",
+    "first_text_seconds": 1.0317787989999943,
+    "first_sentence_seconds": 1.333106098999906,
+    "total_seconds": 1.525297595999973,
+    "answer": "Não, reiniciar o roteador não apaga sua senha do Wi-Fi. Essa ação apenas reativa a conexão, mantendo todas as configurações salvas no dispositivo."
+  },
+  {
+    "model": "google/gemini-3.1-flash-lite",
+    "prompt": "Você disse para eu reiniciar o roteador. Isso apaga minha senha do Wi-Fi?",
+    "first_text_seconds": 0.8197020239999802,
+    "first_sentence_seconds": 0.8864373600001727,
+    "total_seconds": 0.9660690279999926,
+    "answer": "Não, reiniciar o roteador apenas reinicia o sistema e não apaga a sua senha do Wi-Fi. Suas configurações permanecerão salvas normalmente."
+  }
+]

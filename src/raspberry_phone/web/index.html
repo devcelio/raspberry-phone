@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f5">
+  <title>Conversa</title>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" type="module"></script>
+</head>
+<body data-record-seconds="__RECORD_SECONDS__" data-streaming="__STREAMING__">
+  <main class="shell">
+    <header class="console">
+      <div class="status" role="status">
+        <span class="status-led" aria-hidden="true"></span>
+        <span id="status-label">Conectando</span>
+      </div>
+      <button id="reset-button" class="quiet-button" type="button" disabled>Limpar</button>
+    </header>
+    <section class="conversation" aria-label="Conversa">
+      <div id="empty-state" class="empty-state">
+        <p>Vamos conversar?</p>
+        <span>Toque no microfone para falar.</span>
+      </div>
+      <ol id="turn-list" class="turn-list" aria-live="polite" aria-label="Transcrição"></ol>
+    </section>
+    <footer class="controls">
+      <fieldset id="mode-control" class="mode-control" hidden>
+        <legend class="sr-only">Modo de conversa</legend>
+        <label><input type="radio" name="conversation-mode" value="continuous" checked><span>Contínuo</span></label>
+        <label><input type="radio" name="conversation-mode" value="push-to-talk"><span>Segurar para falar</span></label>
+      </fieldset>
+      <button id="talk-button" class="talk-button" type="button" aria-label="Falar" disabled>
+        <svg class="talk-button__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v5a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11h-2Z"/>
+        </svg>
+        <span id="talk-label">Falar</span>
+      </button>
+      <p id="session-detail" role="status"></p>
+    </footer>
+  </main>
+  <dialog id="reset-dialog" class="reset-dialog">
+    <form method="dialog">
+      <h2>Limpar a conversa?</h2>
+      <p>Isso apaga o histórico. Não dá para desfazer.</p>
+      <div class="dialog-actions">
+        <button class="quiet-button" value="cancel">Cancelar</button>
+        <button id="confirm-reset" class="danger-button" value="confirm">Limpar</button>
+      </div>
+    </form>
+  </dialog>
+  <p id="toast" class="toast" role="status" aria-live="polite"></p>
+</body>
+</html>
